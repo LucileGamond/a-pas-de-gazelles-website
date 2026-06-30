@@ -1,7 +1,11 @@
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   width: 100%;
   border-bottom: 1px solid #e8d5bb;
   background: #fffaf3;
+  box-shadow: 0 0.2rem 1rem rgb(106 69 42 / 8%);
 }
 
 .site-header__inner {
@@ -16,7 +20,7 @@
 
 .site-header__title {
   flex: none;
-  color: #6a452a;
+  color: #57351e;
   font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
   font-weight: 700;
   line-height: 1.2;
@@ -43,8 +47,12 @@
   list-style: none;
 }
 
+.site-navigation__toggle {
+  display: none;
+}
+
 .site-navigation__link {
-  color: #6a452a;
+  color: #57351e;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -63,7 +71,7 @@
   outline-offset: 0.3rem;
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 64rem) and (min-width: 48.01rem) {
   .site-header__inner {
     padding-block: 1rem;
     flex-direction: column;
@@ -83,9 +91,109 @@
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 48rem) {
+  .site-header {
+    position: sticky;
+  }
+
   .site-header__inner {
-    align-items: flex-start;
+    position: relative;
+    min-height: 4.25rem;
+    gap: 1rem;
+  }
+
+  .site-header__title {
+    font-size: 1.25rem;
+  }
+
+  .site-navigation__toggle {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    padding: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #57351e;
+    border-radius: 0.5rem;
+    color: #57351e;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .site-navigation__toggle:hover {
+    color: #fffaf3;
+    background: #57351e;
+  }
+
+  .site-navigation__toggle:focus-visible {
+    outline: 3px solid #c8874c;
+    outline-offset: 0.2rem;
+  }
+
+  .site-navigation__toggle-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .site-navigation__toggle-icon,
+  .site-navigation__toggle-icon span {
+    display: block;
+  }
+
+  .site-navigation__toggle-icon {
+    width: 1.35rem;
+  }
+
+  .site-navigation__toggle-icon span {
+    height: 2px;
+    margin-block: 0.25rem;
+    border-radius: 999px;
+    background: currentColor;
+  }
+
+  .site-navigation {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    border-top: 1px solid #e8d5bb;
+    border-bottom: 1px solid #e8d5bb;
+    background: #fffaf3;
+    box-shadow: 0 0.75rem 1rem rgb(106 69 42 / 12%);
+  }
+
+  .site-navigation--open {
+    display: block;
+  }
+
+  .site-navigation__list {
+    width: min(100% - 2rem, 75rem);
+    margin-inline: auto;
+    padding-block: 0.5rem;
+    display: block;
+  }
+
+  .site-navigation__link {
+    padding: 0.75rem;
+    display: block;
+    border-radius: 0.35rem;
+    font-size: 1rem;
+  }
+
+  .site-navigation__link:hover {
+    background: #f4e3cf;
+    text-decoration: none;
+  }
+
+  .site-navigation__link:focus-visible {
+    outline-offset: -0.15rem;
   }
 
   .site-navigation__list {

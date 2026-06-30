@@ -25,7 +25,7 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 
 - [x] Valider l'ordre définitif des sections : Accueil, Équipe, Trek'in, Association, Cap sur 2027, Soutenir l'aventure, Contact.
 - [x] Définir les ancres stables : `accueil`, `equipe`, `trek`, `association`, `preparation`, `soutien`, `contact`.
-- [ ] Préparer une navigation fixe sur ordinateur et un menu accessible sur mobile.
+- [X] Préparer une navigation fixe sur ordinateur et un menu accessible sur mobile.
 - [ ] Prévoir des appels au contact depuis l'accueil et la section de soutien.
 
 ### 0.3 Fondations React
@@ -34,14 +34,12 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 - [x] Corriger les problèmes actuels d'encodage des caractères français.
 - [x] Supprimer le contenu et les styles de démonstration inutiles.
 - [x] Créer un header avec le titre 
-- [ ] Créer un main pour l'instant vide
-- [ ] Créer un footer avec un lien de contact
-- [ ] Créer un menu de navigation avec des titres correpondants au sections
-- [x] Découper la page en composants correspondant aux grandes sections.
-- [ ] Centraliser les contenus variables dans un fichier de données afin de faciliter les mises à jour.
-- [ ] Prévoir les structures de données pour les membres, les étapes, le budget et les partenaires.
-- [ ] Vérifier que le projet passe les commandes de lint et de build avant de commencer les sections.
-- [ ] Pousser sur github
+- [x] Créer un main pour l'instant vide
+- [x] Créer un footer avec un lien de contact
+- [x] Créer un menu de navigation avec des titres correpondants au sections
+- [X] Découper la page en composants correspondant aux grandes sections.
+- [X] Vérifier que le projet passe les commandes de lint et de build avant de commencer les sections.
+- [X] Pousser sur github
 
 ### 0.4 Charte graphique et composants communs
 
@@ -73,25 +71,16 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 
 ### 1.1 Définition du contenu
 
-- [ ] Choisir la photographie principale de l'équipe ou une image temporaire autorisée.
-- [ ] Rédiger le titre principal présentant « Les Déserteuses du 95 ».
-- [ ] Rédiger une accroche courte mentionnant le Trek'in Gazelles 2027 et l'association.
-- [ ] Rédiger une phrase manifeste qui exprime l'esprit collectif, le défi et la recherche de soutien.
-- [ ] Définir le libellé du bouton principal : « Soutenir l'aventure ».
-- [ ] Définir le libellé du bouton secondaire : « Découvrir l'équipe ».
+- [x] Choisir la photographie principale de l'équipe ou une image temporaire autorisée.
+- [x] Rédiger une accroche courte mentionnant le Trek'in Gazelles 2027 et l'association.
 - [ ] Valider le contenu final de la section.
 
 ### 1.2 Étapes techniques
 
-- [ ] Créer un en-tête avec le logo, la navigation et le bouton de soutien.
-- [ ] Rendre l'en-tête lisible sur fond clair comme sur fond photographique.
-- [ ] Créer un menu mobile ouvrable et refermable au clavier.
-- [ ] Construire le bloc d'accueil avec une structure sémantique et un seul `h1`.
-- [ ] Relier les deux boutons aux ancres `#soutien` et `#equipe`.
-- [ ] Ajouter un traitement visuel inspiré des dunes sans masquer la photographie.
-- [ ] Adapter la composition aux écrans mobiles, tablettes et ordinateurs.
+- [x] Rendre l'en-tête lisible sur fond clair comme sur fond photographique.
+- [x] Créer un menu mobile ouvrable et refermable au clavier.
+- [x] Adapter la composition aux écrans mobiles, tablettes et ordinateurs.
 - [ ] Vérifier le recadrage, le poids et le texte alternatif de l'image.
-- [ ] Tester la navigation clavier et le comportement du menu mobile.
 
 ---
 
@@ -99,24 +88,19 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 
 ### 2.1 Définition du contenu
 
-- [ ] Rassembler un portrait cohérent de chacune des trois participantes.
-- [ ] Confirmer le prénom et le nom affichés pour chaque participante.
-- [ ] Rédiger une courte présentation individuelle de longueur similaire.
-- [ ] Rédiger pour chacune une motivation personnelle ou une courte citation.
-- [ ] Préciser son rôle éventuel dans la préparation du projet.
-- [ ] Rédiger un court texte présentant la dynamique collective du trio.
+- [x] Rassembler un portrait cohérent de chacune des trois participantes.
+- [x] Confirmer le prénom et le nom affichés pour chaque participante.
+- [x] Rédiger une courte présentation individuelle de longueur similaire.
 - [ ] Obtenir l'accord des trois participantes sur les textes et les photos.
-- [ ] Valider le contenu final de la section.
 
 ### 2.2 Étapes techniques
 
-- [ ] Créer les données des trois membres dans la collection `teamMembers`.
-- [ ] Créer un composant de portrait réutilisable.
-- [ ] Afficher les trois portraits dans une grille équilibrée sur ordinateur.
-- [ ] Transformer la grille en disposition verticale lisible sur mobile.
+- [x] Créer les données des trois membres dans la collection `teamMembers`.
+- [x] Créer un composant de portrait réutilisable.
+- [x] Afficher les trois portraits dans une grille équilibrée sur ordinateur.
+- [x] Transformer la grille en disposition verticale lisible sur mobile.
 - [ ] Uniformiser le cadrage et le ratio des photographies.
-- [ ] Différencier visuellement présentation, motivation et rôle.
-- [ ] Vérifier l'ordre logique des cartes au clavier et avec un lecteur d'écran.
+- [x] Différencier visuellement présentation, motivation et rôle.
 - [ ] Contrôler qu'aucun texte n'est tronqué aux différentes largeurs.
 
 ---
