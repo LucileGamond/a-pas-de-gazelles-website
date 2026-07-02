@@ -3,13 +3,13 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  border-bottom: 1px solid #e8d5bb;
-  background: #fffaf3;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-background-soft);
   box-shadow: 0 0.2rem 1rem rgb(106 69 42 / 8%);
 }
 
 .site-header__inner {
-  width: min(100% - 2rem, 75rem);
+  width: var(--layout-width);
   min-height: 4.5rem;
   margin-inline: auto;
   display: flex;
@@ -20,7 +20,7 @@
 
 .site-header__title {
   flex: none;
-  color: #57351e;
+  color: var(--color-heading);
   font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
   font-weight: 700;
   line-height: 1.2;
@@ -28,13 +28,7 @@
 }
 
 .site-header__title:hover {
-  color: #9a5c35;
-}
-
-.site-header__title:focus-visible {
-  border-radius: 0.25rem;
-  outline: 3px solid #c8874c;
-  outline-offset: 0.3rem;
+  color: var(--color-primary-hover);
 }
 
 .site-navigation__list {
@@ -52,7 +46,7 @@
 }
 
 .site-navigation__link {
-  color: #57351e;
+  color: var(--color-heading);
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -60,15 +54,9 @@
 }
 
 .site-navigation__link:hover {
-  color: #9a5c35;
+  color: var(--color-primary-hover);
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
-
-.site-navigation__link:focus-visible {
-  border-radius: 0.25rem;
-  outline: 3px solid #c8874c;
-  outline-offset: 0.3rem;
 }
 
 @media (max-width: 64rem) and (min-width: 48.01rem) {
@@ -113,21 +101,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #57351e;
+    border: 2px solid var(--color-heading);
     border-radius: 0.5rem;
-    color: #57351e;
+    color: var(--color-heading);
     background: transparent;
     cursor: pointer;
   }
 
   .site-navigation__toggle:hover {
-    color: #fffaf3;
-    background: #57351e;
-  }
-
-  .site-navigation__toggle:focus-visible {
-    outline: 3px solid #c8874c;
-    outline-offset: 0.2rem;
+    color: var(--color-background-soft);
+    background: var(--color-heading);
   }
 
   .site-navigation__toggle-label {
@@ -163,9 +146,9 @@
     right: 0;
     left: 0;
     display: none;
-    border-top: 1px solid #e8d5bb;
-    border-bottom: 1px solid #e8d5bb;
-    background: #fffaf3;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-background-soft);
     box-shadow: 0 0.75rem 1rem rgb(106 69 42 / 12%);
   }
 
@@ -174,7 +157,7 @@
   }
 
   .site-navigation__list {
-    width: min(100% - 2rem, 75rem);
+    width: var(--layout-width);
     margin-inline: auto;
     padding-block: 0.5rem;
     display: block;
@@ -188,7 +171,7 @@
   }
 
   .site-navigation__link:hover {
-    background: #f4e3cf;
+    background: var(--color-highlight);
     text-decoration: none;
   }
 

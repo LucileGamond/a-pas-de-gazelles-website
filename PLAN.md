@@ -109,25 +109,25 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 
 ### 3.1 Définition du contenu
 
-- [ ] Rédiger une explication courte du Trek'in avec des mots propres au site.
-- [ ] Présenter le principe d'une équipe de trois femmes.
-- [ ] Expliquer l'orientation sans GPS à l'aide d'une carte et d'une boussole.
-- [ ] Mentionner le désert marocain et une distance moyenne d'environ 20 km par jour.
-- [ ] Présenter brièvement les dimensions sportive, solidaire et environnementale.
-- [ ] Ajouter un lien clairement identifié vers le [concept officiel](https://www.trekingazelles.com/le-trek/concept/).
-- [ ] Vérifier les faits auprès des pages officielles sur le [trek engagé](https://www.trekingazelles.com/le-trek/trek-engage/) et la [préparation](https://www.trekingazelles.com/participer/se-preparer/).
-- [ ] Ne pas annoncer les dates ou modalités 2027 avant leur publication officielle.
-- [ ] Valider le contenu final de la section.
+- [x] Rédiger une explication courte du Trek'in avec des mots propres au site.
+- [x] Présenter le principe d'une équipe de trois femmes.
+- [x] Expliquer l'orientation sans GPS à l'aide d'une carte et d'une boussole.
+- [x] Mentionner le désert marocain et une distance moyenne d'environ 20 km par jour.
+- [x] Présenter brièvement les dimensions sportive, solidaire et environnementale.
+- [x] Ajouter un lien clairement identifié vers le [concept officiel](https://www.trekingazelles.com/le-trek/concept/).
+- [x] Vérifier les faits auprès des pages officielles sur le [trek engagé](https://www.trekingazelles.com/le-trek/trek-engage/) et la [préparation](https://www.trekingazelles.com/participer/se-preparer/).
+- [x] Ne pas annoncer les dates ou modalités 2027 avant leur publication officielle.
+- [x] Valider le contenu final de la section.
 
 ### 3.2 Étapes techniques
 
-- [ ] Créer une introduction courte suivie de trois points clés.
-- [ ] Concevoir trois cartes ou repères visuels : orientation, dépassement de soi, engagement.
-- [ ] Ajouter des icônes cohérentes et décoratives sans dépendre d'une bibliothèque lourde.
-- [ ] Intégrer le lien externe vers le site officiel avec un libellé explicite.
-- [ ] Signaler que le site d'À Pas de Gazelles n'est pas le site officiel de l'événement.
-- [ ] Vérifier la lisibilité des cartes sur mobile et aux forts niveaux de zoom.
-- [ ] Contrôler que les liens externes sont accessibles au clavier.
+- [x] Créer une introduction courte suivie de trois points clés.
+- [x] Concevoir trois cartes ou repères visuels : orientation, dépassement de soi, engagement.
+- [x] Ajouter des images cohérentes et descriptives sans dépendre d'une bibliothèque lourde.
+- [x] Intégrer le lien externe vers le site officiel avec un libellé explicite.
+- [x] Signaler que le site d'À Pas de Gazelles n'est pas le site officiel de l'événement.
+- [x] Vérifier la lisibilité des cartes sur mobile et aux forts niveaux de zoom.
+- [x] Contrôler que les liens externes sont accessibles au clavier.
 
 ---
 

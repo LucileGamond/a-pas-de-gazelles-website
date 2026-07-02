@@ -34,15 +34,15 @@ function TeamSection() {
   return (
     <section id="equipe" className="page-section team-section">
       <div className="page-section__inner">
-        <h2>L’équipe – Les Déserteuses du 95</h2>
+        <h2 className="page-section__title">L’équipe – Les Déserteuses du 95</h2>
 
-        <p className="team-section__intro">
+        <p className="page-section__intro">
           L’équipe a été fondée par Johanna et Florence. Sensibles aux valeurs du trek,
           notamment la solidarité, l’écologie, la persévérance et le dépassement de soi,
           c’est sans hésiter que nous avons décidé de nous lancer dans cette aventure humaine.
         </p>
 
-        <div className="team-section__cards">
+        <div className="section-card-grid">
           {participants.map((participant) => (
             <TeamMemberCard key={participant.name} {...participant} />
           ))}

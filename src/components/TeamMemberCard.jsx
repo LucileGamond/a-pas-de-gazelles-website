@@ -5,8 +5,8 @@ function TeamMemberCard({ name, image, imageAlt, age, qualities, description, go
     .join('')
 
   return (
-    <article className="team-card">
-      <div className="team-card__portrait">
+    <article className="content-card team-card">
+      <div className="content-card__media team-card__portrait">
         {image ? (
           <img src={image} alt={imageAlt || `Portrait de ${name}`} />
         ) : (
@@ -14,8 +14,8 @@ function TeamMemberCard({ name, image, imageAlt, age, qualities, description, go
         )}
       </div>
 
-      <div className="team-card__body">
-        <h3>{name}</h3>
+      <div className="content-card__body team-card__body">
+        <h3 className="content-card__title">{name}</h3>
 
         {age && <p className="team-card__age">{age} ans</p>}
 
