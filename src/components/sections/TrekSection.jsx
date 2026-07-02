@@ -1,6 +1,6 @@
 import summitImage from '../../../RessourcesTrekinGazelles/EquipeDansDune.png'
 import engagementImage from '../../../RessourcesTrekinGazelles/TREK24_1111_LEG1_CHA_03_0042.jpg'
-import orientationImage from '../../../RessourcesTrekinGazelles/TREK24_1111_LEG1_NICO_05_0270.jpg'
+import orientationImage from '../../../RessourcesTrekinGazelles/gettyimages-157568181-612x612.jpg'
 
 const trekHighlights = [
   {
@@ -8,6 +8,7 @@ const trekHighlights = [
     text: 'Carte topographique et boussole en main, l’équipe trace son cap et marche environ 20 km par jour.',
     image: orientationImage,
     imageAlt: 'Carte topographique, règle et boussole utilisées pour l’orientation',
+    imageClassName: 'trek-highlight__image--right',
   },
   {
     title: 'Dépassement de soi',
@@ -27,7 +28,7 @@ function TrekSection() {
   return (
     <section id="trek" className="page-section page-section--tinted trek-section">
       <div className="page-section__inner">
-        <h2 className="page-section__title">Le Trek’in Gazelles</h2>
+        <h2 className="page-section__title">Le Trek’in  des Gazelles</h2>
 
         <p className="page-section__intro">
           Un défi d’orientation 100 % féminin au cœur du désert marocain. Par
@@ -39,7 +40,7 @@ function TrekSection() {
           {trekHighlights.map((highlight) => (
             <article className="content-card trek-highlight" key={highlight.title}>
               <img
-                className="content-card__media"
+                className={`content-card__media ${highlight.imageClassName ?? ''}`}
                 src={highlight.image}
                 alt={highlight.imageAlt}
                 loading="lazy"
@@ -54,7 +55,7 @@ function TrekSection() {
 
         <div className="trek-section__footer">
           <a
-            className="trek-section__link"
+            className="section-link"
             href="https://www.trekingazelles.com/le-trek/concept/"
             target="_blank"
             rel="noreferrer"

@@ -91,9 +91,12 @@
 }
 
 .content-card__media {
-  width: 100%;
-  aspect-ratio: 3 / 2;
+  width: min(11rem, 50%);
+  aspect-ratio: 1;
+  margin: 1.5rem auto 0;
+  overflow: hidden;
   display: block;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -175,6 +178,10 @@
   text-align: center;
 }
 
+.trek-highlight__image--right {
+  object-position: right center;
+}
+
 .trek-highlight p {
   margin: 0.75rem 0 0;
   color: var(--color-text);
@@ -186,7 +193,7 @@
   text-align: center;
 }
 
-.trek-section__link {
+.section-link {
   display: inline-block;
   color: var(--color-primary);
   font-size: 0.95rem;
@@ -194,8 +201,85 @@
   text-underline-offset: 0.3rem;
 }
 
-.trek-section__link:hover {
+.section-link:hover {
   color: var(--color-primary-hover);
+}
+
+.association-section__presentation {
+  max-width: 48rem;
+  margin: clamp(2rem, 5vw, 3.5rem) auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.association-section__logo-frame {
+  width: min(100%, 22rem);
+  padding: clamp(1rem, 3vw, 2rem);
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+.association-section__logo {
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.association-section__story {
+  width: 100%;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.association-section__story p {
+  margin: 0;
+}
+
+.association-section__eyebrow {
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.association-section__eyebrow + p {
+  margin-top: 0.75rem;
+}
+
+.association-section__official-publication {
+  margin-top: 1rem !important;
+}
+
+.association-section__official-publication .section-link {
+  margin-top: 0.35rem;
+  display: block;
+}
+
+.association-section__clarification {
+  margin-top: 1rem !important;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-muted);
+  text-align: left;
+}
+
+.association-value {
+  text-align: center;
+}
+
+.association-value p {
+  margin: 0.75rem 0 0;
+  color: var(--color-text);
+  line-height: 1.65;
 }
 
 @media (max-width: 80rem) {
@@ -211,5 +295,10 @@
 
   .section-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .association-section__logo-frame {
+    width: min(100%, 24rem);
+    margin-inline: auto;
   }
 }

@@ -3,7 +3,7 @@ import '../styles/header.css'
 
 const navigationItems = [
   { label: 'Accueil', href: '#accueil' },
-  { label: 'Notre équipe', href: '#equipe' },
+  { label: 'L’équipe', href: '#equipe' },
   { label: 'Le Trek’in', href: '#trek' },
   { label: 'L’association', href: '#association' },
   { label: 'Cap sur 2027', href: '#preparation' },

@@ -135,22 +135,22 @@ Site de soutien à l'équipe **Les Déserteuses du 95** pour sa participation au
 
 ### 4.1 Définition du contenu
 
-- [ ] Rédiger l'histoire de la création de l'association.
-- [ ] Expliquer que sa mission actuelle est de porter le projet Trek'in Gazelles 2027.
-- [ ] Présenter son lien avec Les Déserteuses du 95 et son ancrage dans le Val-d'Oise.
-- [ ] Choisir trois valeurs représentatives, accompagnées d'une phrase concrète chacune.
-- [ ] Sélectionner le logo et une éventuelle photographie illustrant l'association.
-- [ ] Vérifier que le texte ne promet pas de missions futures encore non décidées.
-- [ ] Valider le contenu final de la section.
+- [x] Rédiger l'histoire de la création de l'association.
+- [x] Expliquer que sa mission actuelle est de porter le projet Trek'in Gazelles 2027.
+- [x] Présenter son lien avec Les Déserteuses du 95 et son ancrage dans le Val-d'Oise.
+- [x] Choisir trois valeurs représentatives, accompagnées d'une phrase concrète chacune.
+- [x] Sélectionner le logo et une éventuelle photographie illustrant l'association.
+- [x] Vérifier que le texte ne promet pas de missions futures encore non décidées.
+- [x] Valider le contenu final de la section.
 
 ### 4.2 Étapes techniques
 
-- [ ] Construire une composition associant le logo, l'histoire et les valeurs.
-- [ ] Créer un composant simple et réutilisable pour les valeurs.
-- [ ] Préserver les proportions du logo et fournir une alternative textuelle adaptée.
-- [ ] Alterner la couleur de fond avec la section précédente pour rythmer la page.
-- [ ] Adapter la composition en une seule colonne sur mobile.
-- [ ] Vérifier que la section distingue clairement l'association, l'équipe et l'organisateur du Trek'in.
+- [x] Construire une composition associant le logo, l'histoire et les valeurs.
+- [x] Créer un composant simple et réutilisable pour les valeurs.
+- [x] Préserver les proportions du logo et fournir une alternative textuelle adaptée.
+- [x] Alterner la couleur de fond avec la section précédente pour rythmer la page.
+- [x] Adapter la composition en une seule colonne sur mobile.
+- [x] Vérifier que la section distingue clairement l'association, l'équipe et l'organisateur du Trek'in.
 
 ---
 
